@@ -1,44 +1,83 @@
-# @ngrx
+# 🛠️ Platform – Reactive State Management for Angular
 
-Reactive State for Angular
+**Platform** is a reactive state management library for **Angular**, built on **ngrx/platform**. It simplifies state handling and improves performance for large and complex applications.
 
-[![CircleCI](https://circleci.com/gh/ngrx/platform/tree/main.svg?style=shield)](https://circleci.com/gh/ngrx/workflows/platform/tree/main)
-[![Join the discord server at https://discord.com/invite/ngrx](https://img.shields.io/discord/740557383109050469.svg?color=7389D8&labelColor=6A7EC2&logo=discord&logoColor=ffffff&style=flat-square)](https://discord.com/invite/ngrx)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://commitizen.github.io/cz-cli/)
-[![npm version](https://badge.fury.io/js/%40ngrx%2Fstore.svg)](https://www.npmjs.com/@ngrx/store)
+---
 
-## Documentation
+## 🌟 Key Features
 
-Check out our website: [ngrx.io](https://ngrx.io).
+- ✅ **Reactive State Management** – Built on ngrx  
+- ✅ **Lazy Loading Support** – Load modules on demand  
+- ✅ **Scalable Architecture** – Ideal for large applications  
+- ✅ **TypeScript Support** – Strongly typed for reliability  
+- ✅ **Angular CLI Integration** – Easy to set up and use  
 
-## Contributing
+---
 
-NgRx is a community-driven project. Read our [contributing guidelines](./CONTRIBUTING.md) on how to get involved.
+## 🛠️ Technologies Used
 
-## Sponsoring NgRx
+- **ngrx/platform** – State management library  
+- **Angular CLI** – Front-end framework  
+- **TypeScript** – Programming language  
+- **HTML5** – Structuring content  
+- **CSS3** – Styling and layout  
 
-Sponsorships aid in the continued development and maintenance of NgRx libraries, along with supporting core contributors on the project. Consider asking your company to sponsor NgRx as its core to their business and application development.
+---
 
-### Gold Sponsors
+## 📂 Project Structure
 
-<a href="https://nx.dev" target="_blank">
-  <img src="https://github.com/ngrx/platform/blob/main/projects/ngrx.io/src/assets/images/sponsors/nx.svg" width="200px" height="200px" alt="NxDevTools logo">
-</a>
+Platform/
+┣ .editorconfig # Editor configuration
+┣ .gitignore # Git ignore rules
+┣ .prettierignore # Prettier ignore rules
+┣ angular.json # Angular project configuration
+┣ package.json # Project metadata and dependencies
+┣ tsconfig.json # TypeScript configuration
+┣ tsconfig.app.json # TypeScript config for app
+┣ tsconfig.spec.json # TypeScript config for tests
+┣ README.md # Project documentation
+┣ CHANGELOG.md # Change log
+┣ CONTRIBUTING.md # Contribution guidelines
+┣ LICENSE # Project license
+┣ .husky/ # Husky git hooks
+┣ .github/ # GitHub actions workflows
+┣ .circleci/ # CircleCI configuration
+┣ tools/ # Development tools
+┣ build/ # Build scripts/config
+┣ modules/ # Core modules
+┣ projects/ # Sub-projects
+┣ .dockerignore # Docker ignore rules
+┣ Dockerfile # Docker configuration
+┣ jest.config.ts # Jest testing configuration
+┣ nx.json # Nx workspace configuration
+┣ .nvmrc # Node.js version
+┣ .eslintignore # ESLint ignore rules
 
-Become a gold sponsor and get your logo on our README on GitHub and the front page of [ngrx.io](https://ngrx.io).
 
-### Silver Sponsors
+---
 
-Become a silver sponsor and get your logo on our README on GitHub.
+## 📥 How to Use
 
-### Bronze Sponsors
+1. **Clone the repository:**
 
-<a href="https://houseofangular.io" target="_blank">
-  <img src="https://github.com/ngrx/platform/blob/main/projects/ngrx.io/src/assets/images/sponsors/house-of-angular.png" width="50px" height="50px" alt="House of Angular" />
-</a>
+```bash
+git clone https://github.com/SamirNexus/platform.git
+Install dependencies:
 
-Become a bronze sponsor and get your logo on our README on GitHub.
+cd platform
+npm install
+Run the development server:
 
-## Enterprise Support
+yarn start
+Navigate to http://localhost:4200/ in your browser
 
-If your team or your company is looking for more hands-on support such as training or workshops, check out our [Enterprise Support](https://ngrx.io/enterprise-support) page.
+The app reloads automatically when you make changes to source files
+
+🧪 Running Tests
+Run unit tests using Jest:
+
+
+npm run test
+🚀 Author
+SamirNexus – Software Engineer & Web Developer
+GitHub: https://github.com/SamirNexus
